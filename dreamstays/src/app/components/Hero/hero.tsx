@@ -1,6 +1,6 @@
 "use client"
 import Carousel from "../Carousel/Index";
-import { Index } from "../Nav";
+import { Index } from "../Nav/nav";
 import BlobAnimation from "./BlogAnimation";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
