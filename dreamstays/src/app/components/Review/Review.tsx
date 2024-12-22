@@ -46,7 +46,7 @@ const Testimonials = () => {
 
     return () => clearInterval(interval);
   }, []);
-  const goToSlide = (index) => setActiveIndex(index);
+  const goToSlide = (index: any) => setActiveIndex(index);
   return (
     // <div className="flex  justify-center items-center h-full px-40">
     <div className="relative mx-auto max-w-2xl lg:max-w-4xl h-full">
